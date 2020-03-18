@@ -8,6 +8,6 @@ $ docker build -t <docker-hub-username>/static-site:1.0 .
 
 To run the image in a Docker container
 ```sh
-$ docker run -itd --name mycontainer --publish 8080:80 <docker-hub-username>/staticsite:1.0
+$ docker run -itd --name mycontainer --publish 8080:80 <docker-hub-username>/static-site:1.0
 ```
 
